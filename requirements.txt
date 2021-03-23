@@ -1,0 +1,4 @@
+PDFNetPython3
+spacy==3.0.5
+nltk
+pdf2image

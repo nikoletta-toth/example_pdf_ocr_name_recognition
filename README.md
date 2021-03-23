@@ -20,7 +20,7 @@ Guide: https://www.pdftron.com/documentation/mac/get-started/python3/
 ```python
 pip install PDFNetPython3
 ```
-2. Step 2 of installation guide: download Samples to test PDFNet
+2. Step 2 of installation guide: download Samples to test PDFNet ( can be skipped )
 https://www.pdftron.com/downloads/PDFNetWrappers/PDFNetPython3.zip
 
 Extract zip into the PDFNetPython3/ folder. Result should look like: PDFNetPython3/Samples
@@ -56,3 +56,19 @@ https://www.pdftron.com/documentation/core/info/modules/#ocr-module
 
 5. OCR usage examples: https://www.pdftron.com/documentation/samples/py/OCRTest
 
+### If you have an error with the OCRModule:
+
+“OCRModule” cannot be opened because the developer cannot be verified.
+macOS cannot verify that this app is free from malware.
+
+Do the following:
+https://support.apple.com/en-us/HT202491
+
+In macOS Catalina and macOS Mojave, when an app fails to install because it hasn’t been notarized
+or is from an unidentified developer, it will appear in System Preferences > Security & Privacy,
+under the General tab. Click Open Anyway to confirm your intent to open or install the app.
+
+Then rerun the script. Now you will see this question:
+macOS cannot verify the developer of “OCRModule”. Are you sure you want to open it?
+
+Click: Open
