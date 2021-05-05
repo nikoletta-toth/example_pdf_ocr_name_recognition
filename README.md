@@ -39,8 +39,8 @@ https://www.pdftron.com/documentation/core/info/modules/#ocr-module <br>
 4.2 Unzip the file and place as following:
 - from OCRModuleMac/Samples/TestFiles/OCR/ put all the files into PDFNetPython3/Samples/TestFiles/OCR/
 - all other remaining files from OCRModuleMac/ put into PDFNetPython3/
-- after moving the files we will have *PDFNetPython3/Lib/OCRModule*, here copy the path of the OCRModule file
-- to use the OCR module in your code, you have to add the copied file path as following:
+- after moving the files we will have *PDFNetPython3/Lib/OCRModule*, here copy the path of the folder containing the OCRModule file
+- to use the OCR module in your code, you have to add the copied folder path as following:
 ```python
 	PDFNet.Initialize()
 
