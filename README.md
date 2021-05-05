@@ -34,8 +34,8 @@ sh runall_python.sh
 The output files from all tests are stored in Samples/TestFiles/output/.
 
 4. Installing Additional Modules: OCR
-https://www.pdftron.com/documentation/core/info/modules/#ocr-module
-4.1 Download module: https://www.pdftron.com/documentation/python/info/modules/
+https://www.pdftron.com/documentation/core/info/modules/#ocr-module <br>
+4.1 Download module: https://www.pdftron.com/documentation/python/info/modules/ <br>
 4.2 Unzip the file and place as following:
 - from OCRModuleMac/Samples/TestFiles/OCR/ put all the files into PDFNetPython3/Samples/TestFiles/OCR/
 - all other remaining files from OCRModuleMac/ put into PDFNetPython3/
